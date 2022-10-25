@@ -1,0 +1,51 @@
+body {
+        background-color: #3fb399;
+    }
+    .container {
+        width: 320px;
+        background-color: white;
+        margin: 120px auto;
+    }
+    table {
+        width: 100%;
+        border-color: #f4f4f4;
+    }
+    td {
+        width: 25%;
+    }
+	
+    button {
+    height: 80px;
+    background-color: #cc0099;
+    border: 1px solid rgb(209, 225, 229);
+    font-size: 32px;
+    color: #fff;
+    width: 100%;
+    outline: none;
+}
+ button2 {
+    height: 80px;
+    background-color: #f4f4f4;
+    border: 1px solid rgb(209, 225, 229);
+    font-size: 32px;
+    color: #fff;
+    width: 100%;
+    outline: none;
+}
+    #inputLabel {
+        height: 120px;
+        font-size: 40px;
+        vertical-align: bottom;
+        text-align: right;
+        padding-right: 16px;
+        background-color: #ececec;
+    }
+	button:hover {
+    background-color: darkgray;
+}
+.operator:hover, .equal-sign:hover {
+    background-color: rgba(255, 140, 0, 0.712);
+}
+.operator, .equal-sign {
+    background-color: rgba(255, 136, 0, 0.616);
+}
